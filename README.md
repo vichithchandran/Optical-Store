@@ -1,4 +1,5 @@
-#Online optical Store
+Online Optical Store
+
 Introduction
 
 The Online Optical Store is a web-based application designed to facilitate the online shopping of optical products. With a user-friendly interface, customers can browse, select, and purchase optical items with ease. The application simplifies the sales record management process and reduces manual data entry, making it more efficient for store administrators.
@@ -88,41 +89,3 @@ Ensure you have the following installed on your system:
 XAMPP/WAMP/MAMP (for running PHP and MySQL)
 
 Web browser (Chrome, Firefox, Edge, etc.)
-
-Steps to Run the Project:
-
-Clone the repository:
-
-git clone https://github.com/your-username/online-optical-store.git
-
-Move the project folder to the htdocs directory (for XAMPP) or www directory (for WAMP).
-
-Start the Apache and MySQL services from the XAMPP/WAMP control panel.
-
-Import the database:
-
-Open phpMyAdmin and create a database named optical_store.
-
-Import the provided database.sql file into the database.
-
-Configure the database connection in config.php.
-
-Open the application in your browser:
-
-http://localhost/online-optical-store/
-
-Contributing
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-branch)
-
-Commit your changes (git commit -m "Add new feature")
-
-Push to the branch (git push origin feature-branch)
-
-Open a Pull Request
-
-License
-
-This project is open-source and available under the MIT License.
